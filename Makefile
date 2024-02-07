@@ -1,6 +1,6 @@
 all:
-	as hello.s -o hello.o
-	ld hello.o -o hello
+	as -g hello.s -o hello.o
+	ld -g hello.o -o hello
 
 clean:
 	rm hello hello.o
